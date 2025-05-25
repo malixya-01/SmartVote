@@ -1,10 +1,10 @@
 /*===========================
       01.COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700&display=swap');
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #747e88;
@@ -57,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: #38424d;
   margin: 0px;
@@ -285,13 +285,22 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -moz-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -o-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  -webkit-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  -moz-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  -o-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
 }
 
-.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator .ytp-spinner-left {
+.preloader
+  .loader
+  .ytp-spinner
+  .ytp-spinner-container
+  .ytp-spinner-rotator
+  .ytp-spinner-left {
   position: absolute;
   top: 0;
   left: 0;
@@ -300,7 +309,12 @@ p {
   right: 50%;
 }
 
-.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator .ytp-spinner-right {
+.preloader
+  .loader
+  .ytp-spinner
+  .ytp-spinner-container
+  .ytp-spinner-rotator
+  .ytp-spinner-right {
   position: absolute;
   top: 0;
   right: 0;
@@ -325,18 +339,24 @@ p {
   left: 0;
   right: -100%;
   border-right-color: #eceff8;
-  -webkit-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -moz-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -o-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  -webkit-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  -moz-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  -o-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
 }
 
 .preloader .loader .ytp-spinner-right .ytp-spinner-circle {
   left: -100%;
   right: 0;
   border-left-color: #eceff8;
-  -webkit-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -moz-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  -webkit-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
+  -moz-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
   -o-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
@@ -723,7 +743,7 @@ p {
   }
 }
 
-.navbar-nav .dropdown-menu>li>a {
+.navbar-nav .dropdown-menu > li > a {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 500;
@@ -825,9 +845,9 @@ p {
   }
 }
 
-.navbar-nav .nav-item.active>a,
-.navbar-nav .nav-item:hover>a,
-.navbar-nav .dropdown-menu li:hover>a {
+.navbar-nav .nav-item.active > a,
+.navbar-nav .nav-item:hover > a,
+.navbar-nav .dropdown-menu li:hover > a {
   color: #8b25e5;
 }
 
@@ -986,12 +1006,18 @@ p {
 .header-hero .shape.shape-1 {
   width: 75px;
   height: 75px;
-  background: -webkit-linear-gradient(rgba(254, 132, 100, 0.5) 0%,
-      rgba(254, 110, 154, 0.5) 100%);
-  background: -o-linear-gradient(rgba(254, 132, 100, 0.5) 0%,
-      rgba(254, 110, 154, 0.5) 100%);
-  background: linear-gradient(rgba(254, 132, 100, 0.5) 0%,
-      rgba(254, 110, 154, 0.5) 100%);
+  background: -webkit-linear-gradient(
+    rgba(254, 132, 100, 0.5) 0%,
+    rgba(254, 110, 154, 0.5) 100%
+  );
+  background: -o-linear-gradient(
+    rgba(254, 132, 100, 0.5) 0%,
+    rgba(254, 110, 154, 0.5) 100%
+  );
+  background: linear-gradient(
+    rgba(254, 132, 100, 0.5) 0%,
+    rgba(254, 110, 154, 0.5) 100%
+  );
   border-radius: 50%;
   left: 130px;
   top: 25%;
@@ -1004,12 +1030,18 @@ p {
 .header-hero .shape.shape-2 {
   width: 39px;
   height: 39px;
-  background: -webkit-linear-gradient(rgba(51, 200, 193, 0.5) 0%,
-      rgba(17, 155, 210, 0.5) 100%);
-  background: -o-linear-gradient(rgba(51, 200, 193, 0.5) 0%,
-      rgba(17, 155, 210, 0.5) 100%);
-  background: linear-gradient(rgba(51, 200, 193, 0.5) 0%,
-      rgba(17, 155, 210, 0.5) 100%);
+  background: -webkit-linear-gradient(
+    rgba(51, 200, 193, 0.5) 0%,
+    rgba(17, 155, 210, 0.5) 100%
+  );
+  background: -o-linear-gradient(
+    rgba(51, 200, 193, 0.5) 0%,
+    rgba(17, 155, 210, 0.5) 100%
+  );
+  background: linear-gradient(
+    rgba(51, 200, 193, 0.5) 0%,
+    rgba(17, 155, 210, 0.5) 100%
+  );
   left: 150px;
   bottom: 40px;
   border-radius: 50%;
@@ -1022,12 +1054,18 @@ p {
 .header-hero .shape.shape-3 {
   width: 19px;
   height: 19px;
-  background: -webkit-linear-gradient(rgba(54, 28, 193, 0.5) 0%,
-      rgba(46, 130, 239, 0.5) 100%);
-  background: -o-linear-gradient(rgba(54, 28, 193, 0.5) 0%,
-      rgba(46, 130, 239, 0.5) 100%);
-  background: linear-gradient(rgba(54, 28, 193, 0.5) 0%,
-      rgba(46, 130, 239, 0.5) 100%);
+  background: -webkit-linear-gradient(
+    rgba(54, 28, 193, 0.5) 0%,
+    rgba(46, 130, 239, 0.5) 100%
+  );
+  background: -o-linear-gradient(
+    rgba(54, 28, 193, 0.5) 0%,
+    rgba(46, 130, 239, 0.5) 100%
+  );
+  background: linear-gradient(
+    rgba(54, 28, 193, 0.5) 0%,
+    rgba(46, 130, 239, 0.5) 100%
+  );
   bottom: 25%;
   left: 26%;
   border-radius: 50%;
@@ -1135,7 +1173,7 @@ p {
 
 .header-hero-content .header-title {
   font-size: 42px;
-  color: #38424d;
+  color: #ffffffcf;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1158,7 +1196,7 @@ p {
 
 .header-hero-content .header-title span {
   display: contents;
-  color: #8b25e5;
+  color: #135aff;
 }
 
 .header-hero-content .text {
@@ -1197,7 +1235,7 @@ p {
 
 .header-hero-content .header-video::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -1331,7 +1369,7 @@ p {
 
 .single-services .services-icon::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   top: 0;
@@ -1471,7 +1509,7 @@ p {
   height: 100%;
   top: 0;
   left: 0;
-  content: "";
+  content: '';
   -webkit-transform: scale(1.1) rotate(25deg);
   -moz-transform: scale(1.1) rotate(25deg);
   -ms-transform: scale(1.1) rotate(25deg);
