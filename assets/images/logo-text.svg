@@ -1,0 +1,36 @@
+<svg width="360" height="80" viewBox="0 0 360 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font: bold 24px 'Segoe UI', sans-serif;
+      fill: #00f7c3;
+    }
+    .tagline {
+      font: 11px 'Segoe UI', sans-serif;
+      fill: #00f7c3;
+      letter-spacing: 2px;
+    }
+    .icon-border {
+      fill: none;
+      stroke: #00f7c3;
+      stroke-width: 2;
+      rx: 10;
+    }
+    .shield {
+      fill: #00f7c3;
+    }
+  </style>
+
+  <!-- Background rectangle (optional for visual context) -->
+  <!-- <rect width="360" height="80" fill="#0c1a2c"/> -->
+
+  <!-- Icon box -->
+  <rect x="10" y="15" width="50" height="50" rx="10" class="icon-border" />
+
+  <!-- Shield icon inside the box -->
+  <path class="shield" transform="translate(23, 25) scale(1.2)"
+        d="M10 0L0 4v6c0 5.25 3.5 10.74 10 13 6.5-2.26 10-7.75 10-13V4l-10-4zM10 18.55C5.88 16.87 3 12.97 3 10V5.3L10 2.18 17 5.3V10c0 2.97-2.88 6.87-7 8.55z"/>
+
+  <!-- Text -->
+  <text x="70" y="35" class="title">Smart Vote</text>
+  <text x="70" y="52" class="tagline">SECURE • TRANSPARENT • RELIABLE</text>
+</svg>
